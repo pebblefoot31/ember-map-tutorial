@@ -33,6 +33,9 @@ importers:
       '@ember/test-helpers':
         specifier: ^3.3.0
         version: 3.3.1(@babel/core@7.26.10)(ember-source@5.8.0(@babel/core@7.26.10)(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.98.0))(webpack@5.98.0)
+      '@ember/test-waiters':
+        specifier: ^4.1.0
+        version: 4.1.0
       '@glimmer/component':
         specifier: ^1.1.2
         version: 1.1.2(@babel/core@7.26.10)
