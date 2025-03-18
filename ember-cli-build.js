@@ -13,5 +13,9 @@ module.exports = function (defaults) {
     },
   });
 
+  app.import('dist/assets/tests.js', {
+    type: 'test', // Ensure it's only included in the test environment
+  });
+
   return app.toTree();
 };
